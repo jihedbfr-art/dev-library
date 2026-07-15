@@ -1,6 +1,6 @@
 # Spring Boot Microservices — Architecture Guide
 
-Based on a real stack: Spring Boot services + Eureka discovery + Keycloak auth + Angular front + Docker.
+Based on a real stack I actually run: Spring Boot services + Eureka discovery + Keycloak auth + Angular front + Docker. Most of what's below I learned the hard way building that project, not from a course.
 
 ## Reference architecture
 
@@ -76,6 +76,8 @@ Common traps:
 - Roles live in `realm_access.roles` → you need a converter to map them to `ROLE_*` authorities.
 - Never accept tokens without verifying `aud`/authorized party in multi-client realms.
 
+> Personal note: the `issuer-uri` mismatch cost me an entire evening once. The frontend hit Keycloak via `localhost:8090` (browser-facing) but the backend validated tokens against `keycloak:8090` (docker-internal hostname) — same realm, different hostname string, so JWT validation failed with a cryptic 401 and no useful log. If you're in a similar docker-compose setup, add both hostnames as valid issuers or route everything through one consistent host. I wasted way too long assuming it was a Keycloak config bug before I diffed the actual `iss` claim against the config.
+
 ## Resilience — because the network WILL fail
 
 ```java
@@ -107,3 +109,5 @@ Honest checklist before splitting:
 - [ ] You have the ops maturity (CI/CD, observability, on-call)?
 
 A well-modularized monolith ("modulith") is the right answer more often than conference talks admit. Microservices trade code complexity for operational complexity — make sure you're buying something.
+
+My honest take: I built notes-app-microservices as microservices specifically to *learn* the pattern — Eureka, Keycloak, Kafka, the works. For an app that size, a modulith would genuinely have been the better engineering call. I'd tell a junior dev the same thing I'm telling you: don't reach for this architecture because it's what the job postings say, reach for it when the checklist above actually says yes.

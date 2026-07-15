@@ -4,6 +4,8 @@
 
 A prompt is a **spec**, not a wish. Vague in, vague out. The model can't read your mind — write like you're briefing a competent contractor who knows nothing about your context.
 
+I used to think "prompt engineering" was a slightly embarrassing term for "typing sentences carefully." I still think that's basically true, but I've changed my mind on it mattering — the gap between a lazy prompt and a well-specified one is bigger than the gap between two different models half the time. Worth taking seriously even if the name is silly.
+
 ## Pattern 1 — Structure: role, task, constraints, format
 
 ```

@@ -1,5 +1,7 @@
 # Secrets Management
 
+I'll be blunt about rule #1 below because I've seen people argue with it: it's not a suggestion. I've watched someone delete a leaked AWS key from a repo, feel relieved, and move on — the key was still valid for another four days because they never rotated it. GitHub's full history (and every fork, every clone, every CI cache) still had it. Rotate first, always, no exceptions.
+
 ## The iron rules
 
 1. **A secret that touched git is compromised. Forever.** History doesn't forget — rotate it immediately, don't just delete the file.
@@ -58,3 +60,5 @@ spring:
     username: ${DB_USER}
     password: ${DB_PASSWORD}
 ```
+
+TODO: add a section on rotating secrets for a running Kubernetes deployment without downtime — I keep meaning to write this properly instead of hand-waving "just use External Secrets Operator", since the actual rollout-restart timing has bitten me before.

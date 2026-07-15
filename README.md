@@ -40,6 +40,10 @@
 
 Found something missing or wrong? See [CONTRIBUTING](CONTRIBUTING.md). Keep entries short, practical, and correct.
 
+## 👋 About
+
+Curious why this exists and who's writing it? → [ABOUT.md](ABOUT.md)
+
 ## 📄 License
 
 [MIT](LICENSE) — knowledge should be free.

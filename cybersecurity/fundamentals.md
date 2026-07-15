@@ -62,3 +62,5 @@ Edge (WAF, DDoS protection)
 ## Least privilege — the most profitable habit
 
 Every account, token, service and container gets the minimum access needed, for the minimum time needed. Most breach write-ups are a chain of over-privileged things.
+
+If I had to pick one habit that prevents the most damage per hour invested, it's this one, not encryption, not fancy detection tooling. Encryption protects data at rest; least privilege limits what an attacker can even reach once they're in — and they will eventually get in, somewhere, somehow. I'd rather an attacker land on a container that can only read one S3 bucket than one with a role that can touch the whole account. That's the actual difference between an incident and a headline.
