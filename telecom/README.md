@@ -10,8 +10,13 @@ Everything that makes voice, data and messaging travel across the planet — fro
 | [network-architecture.md](network-architecture.md) | RAN, core network, transport — the three layers |
 | [5g.md](5g.md) | 5G architecture, network slicing, edge, what's real vs hype |
 | [protocols.md](protocols.md) | SS7, Diameter, GTP, SIP, VoLTE — the signaling that runs it all |
+| [volte-ims.md](volte-ims.md) | How voice works in the all-IP era (VoLTE/VoNR/VoWiFi, IMS) |
+| [roaming-interconnect.md](roaming-interconnect.md) | How networks cooperate & settle money across borders |
 | [oss-bss.md](oss-bss.md) | The software that operators run their business on |
 | [billing/](billing/) | Rating, charging, mediation, OCS, revenue assurance |
+| [camara-network-apis.md](camara-network-apis.md) | Coding against telecom: SIM-swap, QoD, number verification |
+| [private-5g.md](private-5g.md) | Private/enterprise 5G networks — factories, ports, campuses |
+| [telecom-security.md](telecom-security.md) | Securing the network: SS7 risks, SIM swap, 5G security |
 | [operators.md](operators.md) | Key operators worldwide and their footprint |
 | [vendors.md](vendors.md) | Ericsson, Nokia, Huawei, Cisco... who builds the gear |
 | [iot-m2m.md](iot-m2m.md) | IoT connectivity: NB-IoT, LTE-M, eSIM, 5G massive IoT |

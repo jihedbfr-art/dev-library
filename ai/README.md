@@ -3,7 +3,7 @@
 The most important module of the decade.
 
 - [llm/](llm/) — [fundamentals](llm/llm-fundamentals.md), [RAG](llm/rag.md)
-- [machine-learning/](machine-learning/) — [evals & testing LLM apps](machine-learning/evals-and-testing.md)
+- [machine-learning/](machine-learning/) — [ML fundamentals](machine-learning/ml-fundamentals.md), [evals & testing LLM apps](machine-learning/evals-and-testing.md)
 - [prompt-engineering/](prompt-engineering/) — [patterns](prompt-engineering/patterns.md), [ready-to-use prompt library](prompt-engineering/prompt-library.md)
 - [agents/](agents/) — [building AI agents](agents/building-agents.md)
 
