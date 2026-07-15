@@ -7,6 +7,7 @@
 | Section | What you'll find |
 |---|---|
 | [🛡️ DevSecOps](devsecops/) | CI/CD, containers, security, infrastructure as code, monitoring |
+| [🔐 Cybersecurity](cybersecurity/) | Fundamentals, web security, blue team, legal learning path |
 | [🤖 AI](ai/) | LLMs, machine learning, prompt engineering, AI agents |
 | [⚙️ Backend](backend/) | Java/Spring, Node.js, API design, microservices |
 | [🎨 Frontend](frontend/) | Angular, React, web fundamentals |
