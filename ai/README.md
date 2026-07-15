@@ -2,10 +2,10 @@
 
 The most important module of the decade.
 
-- [llm/](llm/) — how large language models work, APIs, fine-tuning, RAG
-- [machine-learning/](machine-learning/) — fundamentals, scikit-learn, model evaluation
-- [prompt-engineering/](prompt-engineering/) — patterns that actually work
-- [agents/](agents/) — building autonomous AI agents and tool use
+- [llm/](llm/) — [fundamentals](llm/llm-fundamentals.md), [RAG](llm/rag.md)
+- [machine-learning/](machine-learning/) — [evals & testing LLM apps](machine-learning/evals-and-testing.md)
+- [prompt-engineering/](prompt-engineering/) — [patterns](prompt-engineering/patterns.md), [ready-to-use prompt library](prompt-engineering/prompt-library.md)
+- [agents/](agents/) — [building AI agents](agents/building-agents.md)
 
 ## Start here
 

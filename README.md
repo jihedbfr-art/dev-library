@@ -27,4 +27,4 @@ Found something missing or wrong? Open an issue or a PR. Keep entries short, pra
 
 ## 📄 License
 
-MIT — knowledge should be free.
+[MIT](LICENSE) — knowledge should be free. See [CONTRIBUTING](CONTRIBUTING.md) to add to it.

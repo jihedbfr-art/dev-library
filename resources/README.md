@@ -1,5 +1,5 @@
 # 🧭 Resources
 
-- [roadmaps/](roadmaps/) — learning paths per role
-- [cheatsheets/](cheatsheets/) — quick references (git, docker, linux, sql...)
+- [roadmaps/](roadmaps/) — [DevSecOps](roadmaps/devsecops-roadmap.md), [Cybersecurity](roadmaps/cybersecurity-roadmap.md), [AI Engineer](roadmaps/ai-engineer-roadmap.md)
+- [cheatsheets/](cheatsheets/) — [git](cheatsheets/git.md), [docker](cheatsheets/docker.md), [linux](cheatsheets/linux.md), [sql](cheatsheets/sql.md), [kubernetes](cheatsheets/kubernetes.md)
 - [books/](books/) — the ones worth your time
