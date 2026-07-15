@@ -12,6 +12,9 @@ Everything that makes voice, data and messaging travel across the planet — fro
 | [protocols.md](protocols.md) | SS7, Diameter, GTP, SIP, VoLTE — the signaling that runs it all |
 | [volte-ims.md](volte-ims.md) | How voice works in the all-IP era (VoLTE/VoNR/VoWiFi, IMS) |
 | [roaming-interconnect.md](roaming-interconnect.md) | How networks cooperate & settle money across borders |
+| [provisioning-architecture.md](provisioning-architecture.md) | How subscriber activation actually works: connectors, orchestration, idempotency |
+| [core-network-migration.md](core-network-migration.md) | Migrating a live core between vendors (e.g. Nokia → Huawei) without an outage |
+| [number-portability.md](number-portability.md) | The cross-operator workflow behind keeping your number when you switch |
 | [oss-bss.md](oss-bss.md) | The software that operators run their business on |
 | [billing/](billing/) | Rating, charging, mediation, OCS, revenue assurance |
 | [camara-network-apis.md](camara-network-apis.md) | Coding against telecom: SIM-swap, QoD, number verification |

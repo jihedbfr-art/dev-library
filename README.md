@@ -20,6 +20,8 @@
 | [📡 Telecom](telecom/) | Mobile networks, 5G, protocols, OSS/BSS, billing, operators, IoT |
 | [📱 Mobile](mobile/) | Android (Kotlin/Compose), iOS (Swift/SwiftUI), Flutter, React Native |
 | [🔧 Data Engineering](data-engineering/) | ETL/ELT pipelines, Kafka streaming, warehouses, data quality |
+| [🚨 SRE](sre/) | SLIs/SLOs/error budgets, incident management, capacity planning |
+| [🏛️ Legacy Modernization](legacy-modernization/) | Strangler fig, migration playbook, working with untested legacy code |
 | [🛠️ Software Engineering](software-engineering/) | Testing, code review, git workflows, agile |
 | [🚀 Projects](projects/) | Real-world projects built with this knowledge |
 | [🧭 Resources](resources/) | Roadmaps, cheatsheets, books |

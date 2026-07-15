@@ -4,7 +4,9 @@ I started this because I was tired of having my notes scattered across five diff
 
 So: one repo, organized properly, public so it's actually useful to more than just me.
 
-I build stuff mostly in the Spring Boot / Angular world (see [notes-app-microservices](https://github.com/jihedbfr-art) if you want to see the code behind some of the backend/microservices pages here — that project is where half of the `backend/microservices` content actually got tested, not just read about). The DevSecOps and cybersecurity sections come from wanting to stop being the guy who ships first and secures later. The telecom module exists because I think it's a criminally under-documented field for developers — everyone explains 5G in marketing terms, nobody explains what a UPF actually does.
+I've spent 10+ years on the telecom side most software developers never see — provisioning, BSS integration, number portability, 5G core migrations between vendors — before moving into modern Java/Spring microservices architecture. That's not a career pivot I'm downplaying: the [telecom module](telecom/) here, especially the provisioning/migration/number-portability pages, is written from inside real production incidents, not from reading a spec. The backend/microservices content is the same story from the other side — architecting Spring Boot/Angular/Keycloak platforms at senior level, currently on a 14+ service platform for a customs digitization project.
+
+The DevSecOps and cybersecurity sections come from wanting to stop being the guy who ships first and secures later. Legacy modernization exists because I've lived it — government ERP systems, decade-old PL/SQL business logic nobody fully documented, migrations where "just rewrite it" was never actually an option.
 
 ## What this is not
 
