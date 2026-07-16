@@ -2,9 +2,9 @@
 
 Practical primers — the mental model and the idioms that matter, not exhaustive syntax dumps.
 
-- [python.md](python.md) — readable, batteries-included, king of scripting/data/AI
+- [python.md](python.md) — readable, batteries-included, king of scripting/data/AI (deep dive: [concurrency](python-concurrency.md) — the GIL, asyncio vs multiprocessing)
 - [javascript-typescript.md](javascript-typescript.md) — the language of the web + typed sanity
-- [java.md](java.md) — the enterprise workhorse
+- [java.md](java.md) — the enterprise workhorse (deep dive: [concurrency](java-concurrency.md) — JMM, thread pools, virtual threads)
 - [go.md](go.md) — simple, fast, built for concurrency & cloud
 - [rust.md](rust.md) — memory safety without a garbage collector
 - [clean-code.md](clean-code.md) — principles that apply in every language
