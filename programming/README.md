@@ -3,10 +3,10 @@
 Practical primers — the mental model and the idioms that matter, not exhaustive syntax dumps.
 
 - [python.md](python.md) — readable, batteries-included, king of scripting/data/AI (deep dive: [concurrency](python-concurrency.md) — the GIL, asyncio vs multiprocessing)
-- [javascript-typescript.md](javascript-typescript.md) — the language of the web + typed sanity
+- [javascript-typescript.md](javascript-typescript.md) — the language of the web + typed sanity (deep dive: [event loop](javascript-event-loop.md) — call stack, micro/macrotasks, async/await)
 - [java.md](java.md) — the enterprise workhorse (deep dive: [concurrency](java-concurrency.md) — JMM, thread pools, virtual threads)
-- [go.md](go.md) — simple, fast, built for concurrency & cloud
-- [rust.md](rust.md) — memory safety without a garbage collector
+- [go.md](go.md) — simple, fast, built for concurrency & cloud (deep dive: [concurrency](go-concurrency.md) — goroutines, channels, race detector)
+- [rust.md](rust.md) — memory safety without a garbage collector (deep dive: [ownership & borrowing](rust-ownership.md) — move semantics, lifetimes, smart pointers)
 - [clean-code.md](clean-code.md) — principles that apply in every language
 
 ## How to learn a new language fast
