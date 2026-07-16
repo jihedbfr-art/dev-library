@@ -26,6 +26,7 @@
 | [🔩 Embedded/IoT](embedded-iot/) | Microcontrollers, RTOS/priority inversion, MQTT/CoAP |
 | [⛓️ Blockchain](blockchain/) | Consensus mechanisms, smart contracts, reentrancy and other real exploits |
 | [🧠 Compilers](compilers/) | Lexing/parsing/IR/JIT, static vs dynamic typing, why type errors happen |
+| [🏗️ Software Architecture](software-architecture/) | DDD, hexagonal/clean architecture, event sourcing & CQRS |
 | [🛠️ Software Engineering](software-engineering/) | Testing, code review, git workflows, agile |
 | [🚀 Projects](projects/) | Real-world projects built with this knowledge |
 | [🧭 Resources](resources/) | Roadmaps, cheatsheets, books |
