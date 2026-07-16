@@ -5,6 +5,7 @@ Defensive security knowledge for developers and future security engineers.
 - [fundamentals.md](fundamentals.md) — CIA triad, threat modeling, attack surface, crypto basics
 - [web-security.md](web-security.md) — how web attacks work and how to defend
 - [blue-team.md](blue-team.md) — detection, hardening, incident response
+- [pentest-methodology.md](pentest-methodology.md) — the offensive side, done legally: recon through reporting
 - [learning-path.md](learning-path.md) — how to learn security legally and get certified
 
 ## Ground rule
