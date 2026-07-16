@@ -24,6 +24,8 @@
 | [🏛️ Legacy Modernization](legacy-modernization/) | Strangler fig, migration playbook, working with untested legacy code |
 | [🎮 Game Dev](game-dev/) | Game loop, ECS, rendering pipeline, multiplayer netcode |
 | [🔩 Embedded/IoT](embedded-iot/) | Microcontrollers, RTOS/priority inversion, MQTT/CoAP |
+| [⛓️ Blockchain](blockchain/) | Consensus mechanisms, smart contracts, reentrancy and other real exploits |
+| [🧠 Compilers](compilers/) | Lexing/parsing/IR/JIT, static vs dynamic typing, why type errors happen |
 | [🛠️ Software Engineering](software-engineering/) | Testing, code review, git workflows, agile |
 | [🚀 Projects](projects/) | Real-world projects built with this knowledge |
 | [🧭 Resources](resources/) | Roadmaps, cheatsheets, books |
