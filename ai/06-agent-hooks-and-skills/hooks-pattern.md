@@ -26,11 +26,12 @@ they call them:
 | **On error** | A tool or model call fails | Retry policy, fallback tool, alert |
 | **Session end / stop** | The loop finishes | Persist a summary, release resources, final audit log |
 
-This is exactly the model Claude Code itself uses in production (`PreToolUse`, `PostToolUse`,
-`UserPromptSubmit`, `Stop`, and others, configured in `settings.json`) — not a hypothetical
-design, a pattern already carrying real agent traffic. If you've used a hook to block a
-`git push --force` in your own tooling, you've already used this pattern; this file just names
-it and shows how to build it yourself for a custom agent loop.
+Several production coding-agent tools and CI systems already ship a version of this list under
+their own naming (pre/post-action hooks, lifecycle callbacks, gate steps) — it's not a
+hypothetical design, it's a pattern already carrying real agent traffic in more than one tool.
+If you've used a pre-commit hook to block a bad push, or a CI gate to block a risky step, you've
+already used this pattern; this file just names it for an LLM agent loop and shows how to build
+it yourself for a custom one.
 
 ## What makes a hook useful instead of a mess
 
