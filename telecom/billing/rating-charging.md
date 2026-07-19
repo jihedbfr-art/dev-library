@@ -47,7 +47,7 @@ This "grant, use, re-grant" loop runs continuously, in milliseconds, for million
 
 ## Rating engine design notes (for backend folks)
 
-- **Determinism**: same input + same tariff → same amount, always. Testable like any pure function ([see evals mindset](../../ai/machine-learning/evals-and-testing.md)).
+- **Determinism**: same input + same tariff → same amount, always. Testable like any pure function ([see evals mindset](../../ai/05-evaluation-observability/evals-and-testing.md)).
 - **Catalog-driven**: pricing lives in configurable data, not hard-coded — product teams change offers without code deploys.
 - **Idempotency**: reprocessing a CDR must not double-charge (tie to [dedup](mediation.md)).
 - **Auditability**: every rated amount must be explainable (which rule, which rate) for disputes and regulators.
