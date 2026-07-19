@@ -1,11 +1,14 @@
-# 📚 Dev Library — Archivé
+# 📚 Dev Library
 
-> Ce dépôt est archivé. Tout son contenu (162 fichiers, 22 domaines) a été fusionné dans
-> **[engineering-library](https://github.com/jihedbfr-art/engineering-library)**, qui devient
-> l'unique bibliothèque de référence : projets réels + savoir d'ingénierie + encyclopédie
-> développeur, réunis en un seul écosystème cohérent.
+Most of what used to live here has moved: general engineering knowledge (backend, cloud,
+databases, devsecops, telecom, and the rest) now lives in
+**[engineering-library](https://github.com/jihedbfr-art/engineering-library)**, which is the
+one to check for that content going forward. The domains below are kept as-is, historical,
+not actively updated here anymore.
 
-👉 **Nouveau lien : [github.com/jihedbfr-art/engineering-library](https://github.com/jihedbfr-art/engineering-library)**
-
-Le contenu historique de ce dépôt reste consultable ci-dessous à titre d'archive, mais ne sera
-plus mis à jour ici.
+**[`/ai`](ai/) is the exception — it's active.** AI engineering didn't fit the merge: it's a
+narrower, faster-moving field than "here's how HTTP caching works," and cramming it into the
+general encyclopedia alongside 20+ other domains made it read as shallow instead of deep. So
+it stays here, as its own focused module — hybrid RAG, bounded multi-agent workflows, local
+inference, evaluation — with real runnable code, not just notes. Start there:
+[github.com/jihedbfr-art/dev-library/tree/main/ai](https://github.com/jihedbfr-art/dev-library/tree/main/ai).
