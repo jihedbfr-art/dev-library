@@ -13,6 +13,10 @@ LLM. Swap points are marked in the module docstring if you want Supabase/pgvecto
 Chroma, or a different embedding/completion provider.
 
 If retrieval quality is bad, fix retrieval before touching the prompt — that's not a slogan,
-it's the order of operations that actually saves time. See
-[05-evaluation-observability](../05-evaluation-observability/) for how to measure it instead
-of guessing.
+it's the order of operations that actually saves time.
+[rag_eval.py](rag_eval.py) makes that concrete: a golden-set harness that runs against
+`AdvancedRAGPipeline` directly, scoring retrieval hit rate separately from answer quality — a
+retrieval miss is a different bug than a bad generation, and conflating the two into one pass/fail
+number is how RAG debugging goes in circles. See
+[05-evaluation-observability](../05-evaluation-observability/) for the scoring methods this
+harness is a concrete instance of.
