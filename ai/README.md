@@ -53,6 +53,10 @@ what you're evaluating.
   it implements self-consistency sampling and iterative self-refinement, two real test-time
   scaling techniques, so a small local model can trade compute time for answer quality instead
   of needing a bigger hosted model.
+- **Hooks and skills, not just tools.** A `HookRegistry` that can veto or rewrite a tool call
+  mid-loop (fails closed on error, not open), and a two-phase skill loader that keeps context
+  cost proportional to what's actually used — the pattern behind Claude's Agent Skills, applied
+  to a framework-agnostic custom agent loop.
 - **Evaluation is a first-class module, not a footnote.** `05-evaluation-observability` exists
   because every technique above produces probabilistic output, and "it looked right" is not a
   metric — this module wasn't in the original plan I started from, and I added it because
@@ -70,6 +74,7 @@ what you're evaluating.
 | [`03-agentic-workflows/`](03-agentic-workflows/) | Bounded multi-agent orchestration with CrewAI (Researcher + Writer) |
 | [`04-local-inference/`](04-local-inference/) | Ollama-based local chat with self-consistency and iterative-refinement test-time scaling |
 | [`05-evaluation-observability/`](05-evaluation-observability/) | Golden eval sets, scoring methods, CI gating — how you know any of the above actually works |
+| [`06-agent-hooks-and-skills/`](06-agent-hooks-and-skills/) | Hooks for controlling an agent loop (veto/rewrite tool calls), skills for discoverable on-demand capability |
 | [`shared/`](shared/) | Logging, retry/backoff, and error types reused across every script |
 
 ## Where to start
