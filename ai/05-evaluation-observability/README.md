@@ -1,0 +1,13 @@
+# 05 — Evaluation & Observability
+
+Not in the original four-module plan, and added on purpose: every one of the other modules
+in this library — RAG, agents, local inference — produces probabilistic output, and
+probabilistic output you don't measure is a guess wearing a demo's clothes.
+
+[evals-and-testing.md](evals-and-testing.md) covers building a golden eval set, scoring
+methods from free regex matching up to LLM-as-judge, the RAG-specific metrics (retrieval hit
+rate before answer quality, always), and wiring evals into CI so a prompt or model change
+can't silently regress quality.
+
+If you only take one habit from this entire `/ai` module, take this one: before you call
+anything "improved," show the eval numbers that prove it.
