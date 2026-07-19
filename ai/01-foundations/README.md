@@ -12,5 +12,7 @@ a tokenization or chunking problem three layers up.
   vectors, and the failure modes that follow from getting either one wrong
 - [prompt-engineering/](prompt-engineering/) — patterns that hold up in production, plus a
   copy-paste template library
+- [fine-tuning-and-when-to-use-it.md](fine-tuning-and-when-to-use-it.md) — the last resort in the
+  decision order, and the cases where it's the wrong tool reached for too early
 
 Read in that order if you're new to this; jump straight to whichever file if you're not.
