@@ -9,9 +9,9 @@ on-error) where external code can observe, rewrite, or veto what an agent loop i
 supports both allow/deny decisions and payload rewriting, runs end-to-end with no API key.
 
 [skills-pattern.md](skills-pattern.md) — packaging a procedure as a discoverable,
-lazily-loaded unit instead of stuffing it into a monolithic system prompt. The same idea behind
-Claude's Agent Skills, reinvented convergently elsewhere because the cost math is unavoidable:
-context you don't use for this task shouldn't be paid for on this task. [skill_loader.py](skill_loader.py)
+lazily-loaded unit instead of stuffing it into a monolithic system prompt, reinvented
+convergently across several agent tools because the cost math is unavoidable: context you
+don't use for this task shouldn't be paid for on this task. [skill_loader.py](skill_loader.py)
 implements the two-phase discovery — cheap frontmatter scan, expensive body load only on match.
 
 Why this module exists: RAG retrieves *facts*, multi-agent orchestration handles *coordination*,
