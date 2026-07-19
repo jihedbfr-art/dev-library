@@ -69,7 +69,7 @@ Same principles as [application observability](../devsecops/monitoring/observabi
 1. **Quarantine** — stop the bad data from reaching consumers (pause the pipeline, or exclude the bad batch) before investigating.
 2. **Assess blast radius** — which downstream tables/dashboards/models consumed the bad batch?
 3. **Fix at the source** if possible, backfill correctly, communicate what was wrong to anyone who made a decision off bad numbers.
-4. **Add a test** that would have caught it — every real incident becomes a permanent guard, same discipline as [LLM eval sets growing from failures](../ai/machine-learning/evals-and-testing.md).
+4. **Add a test** that would have caught it — every real incident becomes a permanent guard, same discipline as [LLM eval sets growing from failures](../ai/05-evaluation-observability/evals-and-testing.md).
 
 ## The uncomfortable truth
 
