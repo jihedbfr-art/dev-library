@@ -79,6 +79,8 @@ rather than free text>.
 
 ## See also
 
+- [prompt-engineering/agent-prompt-templates.md](prompt-engineering/agent-prompt-templates.md) —
+  this structure filled in for four common agent archetypes, ready to adapt
 - [prompt-engineering/patterns.md](prompt-engineering/patterns.md) — the general patterns this
   file assumes and builds on
 - [`../03-agentic-workflows/building-agents.md`](../03-agentic-workflows/building-agents.md) —
