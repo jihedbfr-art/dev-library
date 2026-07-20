@@ -11,6 +11,9 @@ snippet. Read [`../hooks-pattern.md`](../hooks-pattern.md) first for the underly
 | [`audit-logger.md`](audit-logger.md) | `PRE_TOOL_USE` + `POST_TOOL_USE` | observe | Append-only, queryable JSONL trail of every tool call attempted and completed, including denials |
 | [`cost-tracker.md`](cost-tracker.md) | `PRE_MODEL_CALL` | veto (deny) | Hard-stop a session once its real accumulated token cost crosses a budget |
 | [`pii-redaction.md`](pii-redaction.md) | `POST_TOOL_USE` | rewrite | Strip emails/phone numbers/keys/card numbers from a tool result before it re-enters context or gets logged |
+| [`rate-limiter.md`](rate-limiter.md) | `PRE_TOOL_USE` | veto (deny) | Cap call frequency per tool in a rolling window, catching a runaway loop before the session cost budget even notices |
+| [`context-window-guard.md`](context-window-guard.md) | `PRE_MODEL_CALL` | rewrite | Trim message history to stay under a token budget without ever dropping the original task framing |
+| [`human-approval-gate.md`](human-approval-gate.md) | `PRE_TOOL_USE` | veto (deny until approved) | Structurally pause irreversible actions (send, delete, deploy, pay) on explicit human confirmation, not just a prompt instruction |
 
 ## Composing more than one
 
