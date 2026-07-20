@@ -74,7 +74,8 @@ what you're evaluating.
 | [`03-agentic-workflows/`](03-agentic-workflows/) | Bounded multi-agent orchestration with CrewAI (Researcher + Writer) |
 | [`04-local-inference/`](04-local-inference/) | Ollama-based local chat with self-consistency and iterative-refinement test-time scaling |
 | [`05-evaluation-observability/`](05-evaluation-observability/) | Golden eval sets, scoring methods, CI gating — how you know any of the above actually works |
-| [`06-agent-hooks-and-skills/`](06-agent-hooks-and-skills/) | Hooks for controlling an agent loop (veto/rewrite tool calls), skills for discoverable on-demand capability |
+| [`06-agent-hooks-and-skills/`](06-agent-hooks-and-skills/) | Hooks for controlling an agent loop (veto/rewrite tool calls), 11 real skill packages, 4 composable hook recipes |
+| [`07-extensibility/`](07-extensibility/) | Plugin/connector pattern: discoverable external tools with an enforced, least-privilege permission boundary |
 | [`shared/`](shared/) | Logging, retry/backoff, and error types reused across every script |
 
 ## Where to start
