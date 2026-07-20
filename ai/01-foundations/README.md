@@ -12,6 +12,8 @@ a tokenization or chunking problem three layers up.
   vectors, and the failure modes that follow from getting either one wrong
 - [prompt-engineering/](prompt-engineering/) — patterns that hold up in production, plus a
   copy-paste template library
+- [agent-system-prompts.md](agent-system-prompts.md) — where general prompting stops being enough:
+  goals, tool-use judgment, authorization boundaries, and stopping conditions for an agent loop
 - [fine-tuning-and-when-to-use-it.md](fine-tuning-and-when-to-use-it.md) — the last resort in the
   decision order, and the cases where it's the wrong tool reached for too early
 
