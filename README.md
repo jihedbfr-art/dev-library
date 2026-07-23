@@ -1,14 +1,13 @@
-# 📚 Dev Library
+# 📚 Dev Library — archived
 
-Most of what used to live here has moved: general engineering knowledge (backend, cloud,
-databases, devsecops, telecom, and the rest) now lives in
-**[engineering-library](https://github.com/jihedbfr-art/engineering-library)**, which is the
-one to check for that content going forward. The domains below are kept as-is, historical,
-not actively updated here anymore.
+Everything here moved to
+**[engineering-library](https://github.com/jihedbfr-art/engineering-library)** on 2026-07-23,
+including `/ai` (now [`knowledge/ai-engineering/`](https://github.com/jihedbfr-art/engineering-library/tree/main/knowledge/ai-engineering)).
+This repo had drifted into a second, half-maintained copy of the same subjects — keeping both
+alive was doing neither any favors.
 
-**[`/ai`](ai/) is the exception — it's active.** AI engineering didn't fit the merge: it's a
-narrower, faster-moving field than "here's how HTTP caching works," and cramming it into the
-general encyclopedia alongside 20+ other domains made it read as shallow instead of deep. So
-it stays here, as its own focused module — hybrid RAG, bounded multi-agent workflows, local
-inference, evaluation — with real runnable code, not just notes. Start there:
-[github.com/jihedbfr-art/dev-library/tree/main/ai](https://github.com/jihedbfr-art/dev-library/tree/main/ai).
+The Git history is still here for traceability, but this repo is read-only from now on. Open
+issues and pull requests against the canonical repo instead.
+
+See [`docs/governance/migration-map.md`](https://github.com/jihedbfr-art/engineering-library/blob/main/docs/governance/migration-map.md)
+in engineering-library for exactly what moved where and why.
